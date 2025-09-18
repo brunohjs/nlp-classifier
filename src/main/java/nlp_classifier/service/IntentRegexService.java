@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Serviço para classificação de intenções usando expressões regulares.
  */
-public class IntentRegexService {
+public class IntentRegexService implements Classifier {
 
     private Map<String, List<String>> intents = new HashMap<>() {
         {
@@ -29,6 +29,8 @@ public class IntentRegexService {
                 "farewell",
                 List.of(
                     "tchau",
+                    "flw",
+                    "até",
                     "até mais",
                     "até logo",
                     "até breve",
