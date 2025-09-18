@@ -1,0 +1,16 @@
+# Variables
+@host = http://localhost:8080
+
+## Endpoints
+
+### Health Check
+GET {{host}}/api/v1/health
+
+
+### Classify Text
+POST {{host}}/api/v1/classify
+Content-Type: application/json
+
+{
+    "text": "falou"
+}

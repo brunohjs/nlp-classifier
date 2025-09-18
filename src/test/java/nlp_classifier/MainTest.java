@@ -1,10 +1,10 @@
-package nlpclassifier;
+package nlp_classifier;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NLPClassifierTest {
+class MainTest {
 
 	@Test
 	void contextLoads() {
