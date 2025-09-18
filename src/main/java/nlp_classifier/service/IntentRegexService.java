@@ -9,6 +9,9 @@ import java.util.List;
  */
 public class IntentRegexService implements Classifier {
 
+    /**
+     * Mapeamento de intenções para suas sentenças associadas.
+     */
     private Map<String, List<String>> intents = new HashMap<>() {
         {
             put(
